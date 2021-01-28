@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25AE0016C108786C9C561818 /* Pods_omm_meme_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3912DA04BD71805C75C68BC /* Pods_omm_meme_ios_app.framework */; };
+		50B5FFE9DDB4C3BE9912C3DB /* Pods_omm_meme_ios_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF18D99CF15B7269B2063C7 /* Pods_omm_meme_ios_appTests.framework */; };
+		5B58BB718442A8C4A14410EF /* Pods_omm_meme_ios_app_omm_meme_ios_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CE719F1DE0101949BFCB73 /* Pods_omm_meme_ios_app_omm_meme_ios_appUITests.framework */; };
 		FC7D720725C1B5E10028BAA9 /* omm_meme_ios_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D720625C1B5E10028BAA9 /* omm_meme_ios_appApp.swift */; };
 		FC7D720925C1B5E10028BAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D720825C1B5E10028BAA9 /* ContentView.swift */; };
 		FC7D720B25C1B5E20028BAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D720A25C1B5E20028BAA9 /* Assets.xcassets */; };
@@ -38,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1433CD812E3BA6F2018AF93B /* Pods-omm-meme-ios-app-omm-meme-ios-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omm-meme-ios-app-omm-meme-ios-appUITests.release.xcconfig"; path = "Target Support Files/Pods-omm-meme-ios-app-omm-meme-ios-appUITests/Pods-omm-meme-ios-app-omm-meme-ios-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25CE719F1DE0101949BFCB73 /* Pods_omm_meme_ios_app_omm_meme_ios_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omm_meme_ios_app_omm_meme_ios_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D25581C8C39CD45DD837A5 /* Pods-omm-meme-ios-app-omm-meme-ios-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omm-meme-ios-app-omm-meme-ios-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-omm-meme-ios-app-omm-meme-ios-appUITests/Pods-omm-meme-ios-app-omm-meme-ios-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54E93B8450210773F661F38C /* Pods-omm-meme-ios-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omm-meme-ios-appTests.release.xcconfig"; path = "Target Support Files/Pods-omm-meme-ios-appTests/Pods-omm-meme-ios-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		89F084307392E81EBBDF68A9 /* Pods-omm-meme-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omm-meme-ios-app.release.xcconfig"; path = "Target Support Files/Pods-omm-meme-ios-app/Pods-omm-meme-ios-app.release.xcconfig"; sourceTree = "<group>"; };
+		C7861D6F43F128DC9EE3A443 /* Pods-omm-meme-ios-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omm-meme-ios-appTests.debug.xcconfig"; path = "Target Support Files/Pods-omm-meme-ios-appTests/Pods-omm-meme-ios-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE61D8D7FBE22CC77275AEBC /* Pods-omm-meme-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omm-meme-ios-app.debug.xcconfig"; path = "Target Support Files/Pods-omm-meme-ios-app/Pods-omm-meme-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
+		D3912DA04BD71805C75C68BC /* Pods_omm_meme_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omm_meme_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF18D99CF15B7269B2063C7 /* Pods_omm_meme_ios_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omm_meme_ios_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D720325C1B5E10028BAA9 /* omm-meme-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "omm-meme-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D720625C1B5E10028BAA9 /* omm_meme_ios_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omm_meme_ios_appApp.swift; sourceTree = "<group>"; };
 		FC7D720825C1B5E10028BAA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AE0016C108786C9C561818 /* Pods_omm_meme_ios_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B5FFE9DDB4C3BE9912C3DB /* Pods_omm_meme_ios_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B58BB718442A8C4A14410EF /* Pods_omm_meme_ios_app_omm_meme_ios_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76B7CBCCAC3E33839C9FD953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE61D8D7FBE22CC77275AEBC /* Pods-omm-meme-ios-app.debug.xcconfig */,
+				89F084307392E81EBBDF68A9 /* Pods-omm-meme-ios-app.release.xcconfig */,
+				29D25581C8C39CD45DD837A5 /* Pods-omm-meme-ios-app-omm-meme-ios-appUITests.debug.xcconfig */,
+				1433CD812E3BA6F2018AF93B /* Pods-omm-meme-ios-app-omm-meme-ios-appUITests.release.xcconfig */,
+				C7861D6F43F128DC9EE3A443 /* Pods-omm-meme-ios-appTests.debug.xcconfig */,
+				54E93B8450210773F661F38C /* Pods-omm-meme-ios-appTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C02E9D31EA670C0D2085847A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3912DA04BD71805C75C68BC /* Pods_omm_meme_ios_app.framework */,
+				25CE719F1DE0101949BFCB73 /* Pods_omm_meme_ios_app_omm_meme_ios_appUITests.framework */,
+				DCF18D99CF15B7269B2063C7 /* Pods_omm_meme_ios_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC7D71FA25C1B5E10028BAA9 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +128,8 @@
 				FC7D721725C1B5E20028BAA9 /* omm-meme-ios-appTests */,
 				FC7D722225C1B5E20028BAA9 /* omm-meme-ios-appUITests */,
 				FC7D720425C1B5E10028BAA9 /* Products */,
+				76B7CBCCAC3E33839C9FD953 /* Pods */,
+				C02E9D31EA670C0D2085847A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC7D722825C1B5E20028BAA9 /* Build configuration list for PBXNativeTarget "omm-meme-ios-app" */;
 			buildPhases = (
+				A231C06E7205D39D3CE6D8FC /* [CP] Check Pods Manifest.lock */,
 				FC7D71FF25C1B5E10028BAA9 /* Sources */,
 				FC7D720025C1B5E10028BAA9 /* Frameworks */,
 				FC7D720125C1B5E10028BAA9 /* Resources */,
+				1F8BBB595DFA4C9D90E0BA3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC7D722B25C1B5E20028BAA9 /* Build configuration list for PBXNativeTarget "omm-meme-ios-appTests" */;
 			buildPhases = (
+				DB76BBED5A6449CFE2186C81 /* [CP] Check Pods Manifest.lock */,
 				FC7D721025C1B5E20028BAA9 /* Sources */,
 				FC7D721125C1B5E20028BAA9 /* Frameworks */,
 				FC7D721225C1B5E20028BAA9 /* Resources */,
@@ -187,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC7D722E25C1B5E20028BAA9 /* Build configuration list for PBXNativeTarget "omm-meme-ios-appUITests" */;
 			buildPhases = (
+				CFE8503AF0778E8A83BAD68D /* [CP] Check Pods Manifest.lock */,
 				FC7D721B25C1B5E20028BAA9 /* Sources */,
 				FC7D721C25C1B5E20028BAA9 /* Frameworks */,
 				FC7D721D25C1B5E20028BAA9 /* Resources */,
+				5DF3BA740A75CA45EE1C2AD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +314,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8BBB595DFA4C9D90E0BA3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-omm-meme-ios-app/Pods-omm-meme-ios-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-omm-meme-ios-app/Pods-omm-meme-ios-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-omm-meme-ios-app/Pods-omm-meme-ios-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF3BA740A75CA45EE1C2AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-omm-meme-ios-app-omm-meme-ios-appUITests/Pods-omm-meme-ios-app-omm-meme-ios-appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-omm-meme-ios-app-omm-meme-ios-appUITests/Pods-omm-meme-ios-app-omm-meme-ios-appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-omm-meme-ios-app-omm-meme-ios-appUITests/Pods-omm-meme-ios-app-omm-meme-ios-appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A231C06E7205D39D3CE6D8FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-omm-meme-ios-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE8503AF0778E8A83BAD68D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-omm-meme-ios-app-omm-meme-ios-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB76BBED5A6449CFE2186C81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-omm-meme-ios-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC7D71FF25C1B5E10028BAA9 /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		FC7D722925C1B5E20028BAA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE61D8D7FBE22CC77275AEBC /* Pods-omm-meme-ios-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +605,7 @@
 		};
 		FC7D722A25C1B5E20028BAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F084307392E81EBBDF68A9 /* Pods-omm-meme-ios-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +627,7 @@
 		};
 		FC7D722C25C1B5E20028BAA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7861D6F43F128DC9EE3A443 /* Pods-omm-meme-ios-appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +649,7 @@
 		};
 		FC7D722D25C1B5E20028BAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E93B8450210773F661F38C /* Pods-omm-meme-ios-appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +671,7 @@
 		};
 		FC7D722F25C1B5E20028BAA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D25581C8C39CD45DD837A5 /* Pods-omm-meme-ios-app-omm-meme-ios-appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +691,7 @@
 		};
 		FC7D723025C1B5E20028BAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1433CD812E3BA6F2018AF93B /* Pods-omm-meme-ios-app-omm-meme-ios-appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

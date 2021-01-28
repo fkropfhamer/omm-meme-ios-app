@@ -43,7 +43,7 @@ struct UploadView: View {
                 }.padding()
                 
                 if selectedImage != nil {
-                    Button(action: {ApiClient.uploadImageToImgur(image: self.selectedImage!)}) {
+                    Button(action: {ApiClient.upload(image: self.selectedImage!)}) {
                         Text("Upload")
                     }
                 }
