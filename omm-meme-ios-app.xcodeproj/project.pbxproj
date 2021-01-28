@@ -13,6 +13,11 @@
 		FC7D720E25C1B5E20028BAA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D720D25C1B5E20028BAA9 /* Preview Assets.xcassets */; };
 		FC7D721925C1B5E20028BAA9 /* omm_meme_ios_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D721825C1B5E20028BAA9 /* omm_meme_ios_appTests.swift */; };
 		FC7D722425C1B5E20028BAA9 /* omm_meme_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D722325C1B5E20028BAA9 /* omm_meme_ios_appUITests.swift */; };
+		FC7D724525C1C3A90028BAA9 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D724425C1C3A90028BAA9 /* ImagePickerView.swift */; };
+		FC7D724A25C1C3D20028BAA9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D724925C1C3D20028BAA9 /* Coordinator.swift */; };
+		FC7D724F25C1C69C0028BAA9 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D724E25C1C69C0028BAA9 /* UploadView.swift */; };
+		FC7D725425C1C75F0028BAA9 /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D725325C1C75F0028BAA9 /* UploadViewModel.swift */; };
+		FC7D725925C1C8B50028BAA9 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D725825C1C8B50028BAA9 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		FC7D721F25C1B5E20028BAA9 /* omm-meme-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "omm-meme-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D722325C1B5E20028BAA9 /* omm_meme_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omm_meme_ios_appUITests.swift; sourceTree = "<group>"; };
 		FC7D722525C1B5E20028BAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7D724425C1C3A90028BAA9 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		FC7D724925C1C3D20028BAA9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FC7D724E25C1C69C0028BAA9 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		FC7D725325C1C75F0028BAA9 /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		FC7D725825C1C8B50028BAA9 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				FC7D720625C1B5E10028BAA9 /* omm_meme_ios_appApp.swift */,
+				FC7D725325C1C75F0028BAA9 /* UploadViewModel.swift */,
 				FC7D720825C1B5E10028BAA9 /* ContentView.swift */,
+				FC7D725825C1C8B50028BAA9 /* ApiClient.swift */,
+				FC7D724E25C1C69C0028BAA9 /* UploadView.swift */,
+				FC7D724425C1C3A90028BAA9 /* ImagePickerView.swift */,
+				FC7D724925C1C3D20028BAA9 /* Coordinator.swift */,
 				FC7D720A25C1B5E20028BAA9 /* Assets.xcassets */,
 				FC7D720F25C1B5E20028BAA9 /* Info.plist */,
 				FC7D720C25C1B5E20028BAA9 /* Preview Content */,
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7D725925C1C8B50028BAA9 /* ApiClient.swift in Sources */,
+				FC7D724A25C1C3D20028BAA9 /* Coordinator.swift in Sources */,
+				FC7D725425C1C75F0028BAA9 /* UploadViewModel.swift in Sources */,
+				FC7D724F25C1C69C0028BAA9 /* UploadView.swift in Sources */,
 				FC7D720925C1B5E10028BAA9 /* ContentView.swift in Sources */,
+				FC7D724525C1C3A90028BAA9 /* ImagePickerView.swift in Sources */,
 				FC7D720725C1B5E10028BAA9 /* omm_meme_ios_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
