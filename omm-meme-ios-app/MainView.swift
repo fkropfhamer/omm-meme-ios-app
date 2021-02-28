@@ -13,13 +13,12 @@ enum Pages {
     case show
 }
 
-struct UploadView: View {
+struct MainView: View {
     
     @State private var page = Pages.upload
     @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
     @State private var selectedImage: UIImage?
     @State private var isImagePickerDisplay = false
-    @ObservedObject var model: UploadViewModel = UploadViewModel()
     @State private var topText: String = ""
     @State private var bottomText: String = ""
     @State private var name: String = ""
@@ -144,8 +143,8 @@ struct UploadView: View {
     }
 }
 
-struct UploadView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        UploadView()
+        MainView()
     }
 }

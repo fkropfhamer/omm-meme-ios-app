@@ -11,7 +11,7 @@ import SwiftUI
 struct omm_meme_ios_appApp: App {
     var body: some Scene {
         WindowGroup {
-            UploadView()
+            MainView()
         }
     }
 }
